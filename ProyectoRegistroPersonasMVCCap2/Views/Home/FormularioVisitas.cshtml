@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormularioVisitas</title>
+</head>
+<body>
+    <div> 
+        <form action="/Home/CargaDatos" method="post">
+            <p>Nombre: <input type="text" name="nombre" value="" /></p>
+            <p>Cedula: <input type="text" name="cedula" value="" /></p>
+            <p>Telefono: <input type="text" name="telefonos" value="" /></p>
+            <p>Correo Electronico <input type="text" name="correo" placeholder="alguien@correo.com" value="" /></p>
+
+            <p><input type="submit" name="name" value="Confirmar envio" /></p>
+        </form>
+    </div>
+</body>
+</html>
